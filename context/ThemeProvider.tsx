@@ -25,7 +25,7 @@ const ThemeProvider = ({ children }: { children: React.ReactNode }) => {
     }
   };
 
-  useEffect(() => {
+   useEffect(() => {
     handleThemeChange();
   }, [mode]);
 
